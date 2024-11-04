@@ -1,0 +1,77 @@
+/* Basic styles for the container */
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #00cc2c; /* Green border */
+    border-radius: 8px;
+    background-color: #faffe6; /* Light background color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative;
+    text-align: center;
+}
+
+/* Title line styling */
+.title-line {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #00665c; /* Dark blue color for title */
+    margin-bottom: 10px;
+}
+
+/* Main heading (Tip Calculator title) styling */
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #333;
+}
+
+/* Form group styling for alignment and spacing */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+    flex: 1; /* Ensures label takes up equal space */
+    font-size: 1em;
+    color: #333;
+    text-align: left;
+}
+
+/* Input styling */
+.form-group input[type="text"],
+.form-group select {
+    flex: 1.5; /* Slightly wider input fields than labels */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Slider styling */
+.form-group input[type="range"] {
+    flex: 1.5;
+    margin-left: 10px;
+}
+
+/* Tip percentage display */
+#tipPercentDisplay {
+    margin-left: 10px;
+}
+
+/* Styling for disabled input fields */
+input[disabled] {
+    background-color: #d9d9d9;
+    color: #333;
+}
+
+/* Conversion rates and error message styling */
+.conversion-rates, .error-message {
+    font-size: 0.9em;
+    color: #555;
+}
